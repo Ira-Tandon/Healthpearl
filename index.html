@@ -1,0 +1,318 @@
+<html>
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <!--3.4-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+</head>
+
+<body id="backbody">
+
+    <nav class="navbar navbar-inverse" id="navbar" style="border:none;">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="nav-item"><a href="index.html" id="abc">Allergies</a></li>
+              <li class="nav-item"><a href="diseases.html" id="abc">Diseases</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+          <!--Wheat Allergy-->
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#wheat">
+            <img src="Wheat.png" class="img-responsive">
+            <br>
+            <p class="text-primary">Wheat Allergy</p>
+        </div>
+  <div class="modal fade" id="wheat">
+    <div class="modal-dialouge">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Wheat Allergy</h4>
+            </div>
+            <div class="modal-body">
+                <img src="Wheat.png" id="whea" class="img-responsive img_modal">
+                <!--Text-->
+                <h3 id="head">Symptoms</h3>
+                <p id="text-body">1. Hives, itchy rash or swelling of the skin<br>
+                    2. Nasal congestion<br>
+                    3. Headache<br>
+                    4. Difficulty breathing<br>
+                    5. Cramps, nausea or vomiting<br>
+                    6. Diarrhea<br>
+                    7. Anaphylaxis<br>
+                    8. welling, itching or irritation of the mouth or throat</p><br><br>
+                    <h3 id="head">Diagnosis</h3>
+                    <p id="text-body">1. Skin test - Tiny drops of purified allergen extracts — including extracts for wheat proteins — are pricked onto your skin
+                          's surface, either on your forearm or on your upper back. After 15 minutes, your doctor or nurse looks for signs of 
+                          allergic reactions.If you develop a red, itchy bump where the wheat protein extract was pricked onto your skin, you may be
+                          allergic to wheat. The most common side effect of these skin tests is itching and redness.<br>
+                       2. Blood test - If a skin condition or possible interactions with certain medications prevent you from having a skin test,
+                          your doctor may order a blood test that screens for specific allergy-causing antibodies to common allergens, including 
+                          wheat proteins.<br>
+                       3. Food diary - Your doctor may ask you to keep a detailed record of what and when you eat and when symptoms develop for a 
+                          time.<br>
+                       4. Elimination diet - Your doctor may recommend that you remove certain foods from your diet, particularly those that are 
+                          common allergens. Under your doctor's direction, you will gradually add foods back and note when symptoms return.<br>
+                       5. Food challenge testing - You eat food suspected of being the allergy-causing agent while being monitored for allergy 
+                          symptoms. Under supervision, you begin with a small amount of the food and gradually increase the amount you consume.<br></p>
+                          <h3 id="head">Cures</h3>
+                          <p id="text-body">There is currently no cure for wheat allergy. However, there are OTC and prescription medications that may relieve symptoms. Avoiding 
+                             allergy triggers or reducing contact with them can help prevent allergic reactions. Over time, immunotherapy may reduce the severity
+                             of allergic reactions.</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--Lactose Intolerance-->
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#milk">
+    <img src="Milk.png" class="img-responsive">
+    <br>
+    <p class="text-primary">Lactose Intolerance</p>
+</div>
+<div class="modal fade" id="milk">
+<div class="modal-dialouge">
+<div class="modal-content">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Lactose Intolerance</h4>
+    </div>
+    <div class="modal-body">
+        <img src="Milk.png" class="img-responsive img_modal">
+        <!--Text-->
+        <h3 id="head">Symptoms</h3>
+        <p id="text-body"> 1. Nausea, and sometimes, vomiting<br>
+            2. Stomach cramps<br>
+            3. Bloating<br>
+            4. Gas<br>
+            5. Diarrhea</p><br><br>
+            <h3 id="head">Diagnosis</h3>
+            <p id="text-body">1. In a lactose tolerance test, you'll be given a drink of lactose solution and a blood sample will be taken.<br>
+               2. The blood will be tested to see how much blood sugar (glucose) it contains.<br>
+               3. If you're lactose intolerant, your blood sugar levels will either rise slowly or not at all.<br>
+               4. This is because your body is unable to break down the lactose into glucose.</p>
+               <h3 id="head">Cures</h3>
+               <p id="text-body">There is currently no cure for lactose intolerance. However, there are OTC and prescription medications that may relieve symptoms. Avoiding 
+                  allergy triggers or reducing contact with them can help prevent allergic reactions. Over time, immunotherapy may reduce the severity
+                  of allergic reactions.</p>
+    </div>
+</div>
+</div>
+</div>
+
+<!--Cat Allergy-->
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#cat">
+    <img src="Cat.png" id="a" class="img-responsive" >
+    <br>
+    <p class="text-primary">Cat Allergy</p>
+</div>
+<div class="modal fade" id="cat">
+<div class="modal-dialouge">
+<div class="modal-content">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cat Allergy</h4>
+    </div>
+    <div class="modal-body">
+        <img src="Cat.png" id="whea" lass="img-responsive img_modal">
+        <!--Text-->
+        <h3 id="head">Symptoms</h3>
+        <p id="text-body"> 1. Sneezing<br>
+            2. Runny nose<br>
+            3. Itchy, red or watery eyes<br>
+            4. Nasal congestion<br>
+            5. Itchy nose, roof of mouth or throat<br>
+            6. Postnasal drip<br>
+            7. Cough<br>
+            8. Facial pressure and pain<br>
+            9. Frequent awakening<br>
+            10. Swollen, blue-colored skin under your eyes<br>
+            11. In a child, frequent upward rubbing of the nose</p><br><br>
+            <h3 id="head">Diagnosis</h3>
+            <p id="text-body">Your doctor may suspect a cat allergy based on symptoms, an examination of your nose, and your answers to his or her questions.
+               He or she may use a lighted instrument to look at the condition of the lining of your nose. If you have a cat allergy, the
+                lining of the nasal passage may be swollen or appear pale or bluish.</p>
+                <h3 id="head">Cures</h3>
+                <p id="text-body">There is currently no cure for cat allergy. However, there are OTC and prescription medications that may relieve symptoms. Avoiding 
+                   allergy triggers or reducing contact with them can help prevent allergic reactions. Over time, immunotherapy may reduce the severity
+                   of allergic reactions.</p>
+    </div>
+</div>
+</div>
+</div>
+
+<!--Dog Allergy-->
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#dog">
+    <img src="Dog Allergy.png" class="img-responsive">
+    <br>
+    <p class="text-primary" >Dog Allergy</p>
+</div>
+<div class="modal fade" id="dog" aria-scrollable="true">
+<div class="modal-dialouge">
+<div class="modal-content">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Dog Allergy</h4>
+    </div>
+    <div class="modal-body">
+        <img src="Dog Allergy.png" id="whea" class="img-responsive img_modal">
+        <!--Text-->
+        <h3 id="head">Symptoms</h3>
+        <p id="text-body"> 1. Sneezing<br>
+            2. Runny nose<br>
+            3. Itchy, red or watery eyes<br>
+            4. Nasal congestion<br>
+            5. Itchy nose, roof of mouth or throat<br>
+            6. Postnasal drip<br>
+            7. Cough<br>
+            8. Facial pressure and pain<br>
+            9. Frequent awakening<br>
+            10. Swollen, blue-colored skin under your eyes<br>
+            11. In a child, frequent upward rubbing of the nose</p><br><br>
+            <h3 id="head">Diagnosis</h3>
+            <p id="text-body">Your doctor may suspect a dog allergy based on symptoms, an examination of your nose, and your answers to his or her questions.
+               He or she may use a lighted instrument to look at the condition of the lining of your nose. If you have a dog allergy, the
+                lining of the nasal passage may be swollen or appear pale or bluish.</p>
+                <h3 id="head">Cures</h3>
+                <p id="text-body">There is currently no cure for dog allergy. However, there are OTC and prescription medications that may relieve symptoms. Avoiding 
+                   allergy triggers or reducing contact with them can help prevent allergic reactions. Over time, immunotherapy may reduce the severity
+                   of allergic reactions.</p>
+    </div>
+</div>
+</div>
+</div>
+
+<!--Dust Allergy-->
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#dust">
+    <img src="dust.JPG" class="img-responsive">
+    <br>
+    <p class="text-primary">Dust Allergy</p>
+</div>
+<div class="modal fade" id="dust">
+<div class="modal-dialouge">
+<div class="modal-content">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Dust Allergy</h4>
+    </div>
+    <div class="modal-body">
+        <img src="dust.JPG" class="img-responsive img_modal">
+        <!--Text-->
+        <h3 id="head">Symptoms</h3>
+        <p id="text-body"> 1. Sneezing<br>
+            2. Runny nose<br>
+            3. Itchy, red or watery eyes<br>
+            4. Nasal congestion<br>
+            5. Itchy nose, roof of mouth or throat<br>
+            6. Postnasal drip<br>
+            7. Cough<br>
+            8. Facial pressure and pain<br>
+            9. Frequent awakening<br>
+            10. Swollen, blue-colored skin under your eyes<br>
+            11. In a child, frequent upward rubbing of the nose</p><br><br>
+            <h3 id="head">Diagnosis</h3>
+            <p id="text-body">To diagnose a dust mite allergy, your doctor may give you a physical exam and discuss your symptoms. If your doctor thinks you have a 
+               dust mite allergy, they may suggest a skin or blood test. If you have symptoms year round, you could have a dust mite allergy.</p>
+               <h3 id="head">Cures</h3>
+               <p id="text-body">There is currently no cure for dust allergy. However, there are OTC and prescription medications that may relieve symptoms. Avoiding 
+                  allergy triggers or reducing contact with them can help prevent allergic reactions. Over time, immunotherapy may reduce the severity
+                  of allergic reactions.</p>
+    </div>
+</div>
+</div>
+</div>
+      
+<!--Bleach Allergy-->
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#bleach">
+    <img src="bleach.JPG" class="img-responsive">
+    <br>
+    <p class="text-primary">Bleach Allergy</p>
+</div>
+<div class="modal fade" id="bleach">
+<div class="modal-dialouge">
+<div class="modal-content">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Bleach Allergy</h4>
+    </div>
+    <div class="modal-body">
+        <img src="bleach.JPG" class="img-responsive img_modal">
+        <!--Text-->
+        <h3 id="head">Symptoms</h3>
+        <p id="text-body"> 1. Skin lesions, scales, or rashes<br>
+            2. Breathing difficulties characterized by wheezing<br>
+            3. Chest tightness<br>
+            4. Runny nose<br>
+            5. sneezing<br>
+            6. coughing<br>
+            7. Headache and dizziness<br>
+            8. Long-term exposure may lead to hormonal disruption reproductive problems, immune dysfunction, and cancer<br>
+            9. Skin redness, inflammation, and itchiness at the site of contact</p><br><br>
+            <h3 id="head">Diagnosis</h3>
+            <p id="text-body">Your doctor may suspect a bleach allergy based on symptoms, and your answers to his or her questions.</p>
+            <h3 id="head">Cures</h3>
+            <p id="text-body">There is currently no cure for bleach allergy. However, there are OTC and prescription medications that may relieve symptoms. Avoiding 
+               allergy triggers or reducing contact with them can help prevent allergic reactions. Over time, immunotherapy may reduce the severity
+               of allergic reactions.</p>
+    </div>
+</div>
+</div>
+</div>
+
+<!--Ammonium Allergy-->
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#ammonium">
+    <img src="ammonia.JPG" class="img-responsive">
+    <br>
+    <p class="text-primary">Ammonium  Allergy</p>
+</div>
+<div class="modal fade" id="ammonium">
+<div class="modal-dialouge">
+<div class="modal-content">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Ammonium persulfate Allergy</h4>
+    </div>
+    <div class="modal-body">
+        <img src="ammonia.JPG" class="img-responsive img_modal">
+        <!--Text-->
+        <h3 id="head">Symptoms</h3>
+        <p id="text-body"> 1. Rhinorrhea<br>
+            2. Scratchy throat<br>
+            3. Chest tightness<br>
+            4. Cough<br>
+            5. Dyspnea<br>
+            6. Eye irritation</p><br><br>
+            <h3 id="head">Diagnosis</h3>
+            <p id="text-body">Ammonium persulfate allergy is diagnosed from the clinical history and by performing special allergy tests, i.e. prick tests 
+               (for contact urticaria) and patch tests (for dermatitis). Patch testing with 2.5% ammonium persulfate in petrolatum is used.</p>
+            <h3 id="head">Cures</h3>
+            <p id="text-body">There is currently no cure for ammonium allergy. However, there are OTC and prescription medications that may relieve
+                 symptoms. Avoiding allergy triggers or reducing contact with them can help prevent allergic reactions. Over time, immunotherapy may
+                 reduce the severity of allergic reactions.</p>
+    </div>
+</div>
+</div>
+</div>
+
+</body>
+
+</html>

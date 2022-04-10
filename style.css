@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
+:root{
+    /* CSS HEX */
+    --midnight-blue: #000080;
+    --dodger-blue: #0096ffff;
+    --light-sky-blue: #72d2ffff;
+    --alice-blue:#f7fbff;
+    }
+
+#navbar {
+    background-color:#72d2ffff;
+ }
+
+ #backbody{
+    background-color:#E1EFFD;
+}
+
+ #abc {
+     color: #000080;
+     font-size: 20px;
+
+ }
+
+ img{
+     border:0px solid black;
+     border-radius:25px;
+     width:max-content;
+     height:auto;
+ }
+
+ .nav-item {
+     padding-left: 33px;
+     padding-right: 25px;
+     font-family: 'Quintessential', cursive;
+     display: inline;
+     transition: transform 5s;
+     font-weight: bold;
+     font-size: 20px;
+ }
+
+ .navbar-brand {
+     text-shadow: none;
+ }
+
+ #abc:hover {
+     color: #000080;
+     font-weight: bold;
+     font-size: 27px;
+     text-decoration-color: aliceblue;
+     text-shadow:2px 2px aliceblue;
+     text-decoration: inherit;
+ }
+
+ #whea{
+    height:50%;
+    width:auto;
+}
+
+#btn{
+   height:4.7%;
+   width:auto;
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+   border-top-right-radius: 0px;
+   border-bottom-right-radius: 0px;
+}
+
+#btn2{
+   height:4.7%;
+   width:auto;
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+   border-top-left-radius: 0px;
+   border-bottom-left-radius: 0px;
+}
+
+#text-body{
+color:var(--midnight-blue);
+font-size: medium;
+}
+
+#head{
+    color:var(--light-sky-blue);
+    font-size: x-large;
+}
+  
+  /*diseases*/
+
+  a {
+    display: inline-block;
+
+  }
+  
+  a:hover {
+    background-color:var(--light-sky-blue);
+    color: var(--midnight-blue);
+
+
+  }
+
+  #body1{
+    color:var(--midnight-blue);
+    }
+    
+    #heading{
+        color:var(--midnight-blue);
+    }
+    /*media*/
+
+    @media screen and (max-width:900px) {
+        #whea{
+            width:450px;
+            height:300px;
+            margin-right:10px;
+        }
+
+        .nav-item {
+            font-family: 'Quintessential', cursive;
+            display: inline;
+            transition: transform 5s;
+            font-weight: bold;
+            font-size: 20px;
+        }
+    }
